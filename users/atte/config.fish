@@ -137,6 +137,7 @@ end
 
 # Editor
 set -gx EDITOR nvim
+alias vim "nvim"
 
 #-------------------------------------------------------------------------------
 # Functions
