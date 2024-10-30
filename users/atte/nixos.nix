@@ -10,14 +10,14 @@
   # Since we're using fish as our shell
   programs.fish.enable = true;
 
-  users.users.mitchellh = {
+  users.users.atte = {
     isNormalUser = true;
-    home = "/home/mitchellh";
+    home = "/home/atte";
     extraGroups = [ "docker" "wheel" ];
     shell = pkgs.fish;
-    hashedPassword = "$6$p5nPhz3G6k$6yCK0m3Oglcj4ZkUXwbjrG403LBZkfNwlhgrQAqOospGJXJZ27dI84CbIYBNsTgsoH650C1EBsbCKesSVPSpB1";
+    hashedPassword = "$6$p7XVHmlldda3o/Dj$GkmuPt4vyh94Fl3unqIJO0i8lzeQLSiie73yWQd31CAtJaSH6qE7xzjV2BVFhUQrw.89GdHKa7tNZHTpi3HyJ/";
     openssh.authorizedKeys.keys = [
-      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGbTIKIPtrymhvtTvqbU07/e7gyFJqNS4S0xlfrZLOaY mitchellh"
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINg+iopkGS0kAY8U8H78HwteNs4ZBhDDKmlTAASAc7Jf atte"
     ];
   };
 
